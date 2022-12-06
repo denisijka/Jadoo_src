@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+	@@include('html/_head.htm',{
+	"title":"Главная"
+	})
+	<body>
+		<div class="wrapper">
+			@@include('html/_header.htm',{})
+			<main class="page">
+				<section class="page__main main">
+					<div class="main__container">
+						<div class="main__body">
+							<div class="main__label">Best Destinations around the world</div>
+							<h1 class="main__title">Travel, <span>enjoy</span> and live a new and full life</h1>
+							<div class="main__text">Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.</div>
+							<div class="main__actions">
+								<a href="" class="main__button">Find out more</a>
+								<a href="#" data-popup="#video" data-popup-youtube="LEgdBLC8Lrw" class="main__play _icon-play">Play Demo</a>
+							</div>
+						</div>
+						<div class="main__media media-main">
+							<div data-prlx-mouse class="media-main__plane media-main__plane_1">
+								<img src="@img/main/plane.svg" alt="">
+							</div>
+							<div data-prlx-mouse class="media-main__plane media-main__plane_2">
+								<img src="@img/main/plane.svg" alt="">
+							</div>
+							<div data-prlx-mouse class="media-main__image">
+								<img src="@img/main/girl.png" alt="Girl">
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+			@@include('html/_footer.htm',{})
+		</div>
+		@@include('html/_popup.htm',{})
+		@@include('html/_js.htm',{})
+	</body>
+</html>
